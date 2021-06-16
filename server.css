@@ -1,14 +1,12 @@
 * {
   margin: 0;
   padding: 0;
-  background: url(./server_pics/bg.jpg);
 }
-body{
-overflow-x:hidden;
-}
+
 .bg {
   height: 100vh;
   width: 100vw;
+  background: url(./server_pics/bg.jpg);
 }
 .l {
   display: inline-block;
@@ -55,7 +53,7 @@ overflow-x:hidden;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-transform: uppercase;
   font-weight: 3em;
-  font-size: 2.33em;
+  font-size: em;
   position: relative;
 }
 
