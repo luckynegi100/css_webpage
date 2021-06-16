@@ -46,13 +46,13 @@
   }
 }
 .heading {
-  padding-top: 1.325rem;
+  padding-top: 1.625rem;
   margin-left: 2.5rem;
   text-align: center;
-  font-family: cursive;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-transform: uppercase;
   font-weight: 3em;
-  font-size: 2.3em;
+  font-size: 2.33em;
   position: relative;
 }
 
@@ -63,19 +63,6 @@
   left: 10%;
   outline: 4px solid rgba(0, 0, 0, 0.5);
   outline-offset: 3px;
-}
-.join {
-  position: absolute;
-  height: 2.5rem;
-  width: 3.7rem;
-  border-radius: 4px;
-  color: white;
-  font-weight: bolder;
-  background: #4281a4;
-  top: 36%;
-  right: 11%;
-  z-index: 1;
-  cursor: pointer;
 }
 
 .join:hover {
@@ -93,18 +80,73 @@
   overflow: hidden;
   border-radius: 30%;
   position: absolute;
-  top: 2rem;
-  left: 1.2rem;
+  top: 1.9rem;
+  left: 0.6rem;
 }
 .logo:hover {
   transform: rotateX(180deg);
+}
+.dude {
+  text-decoration: none;
+}
+.fk {
+  display: block;
+  cursor: pointer;
+  border: 2px solid black;
+  margin: 6rem auto 0 auto;
+  border-radius: 9px;
+  padding: 1rem 1rem 1.3rem 1rem;
+  font-size: 1em;
+  font-weight: bolder;
+  background: #4281a4;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  transition: transform 300ms ease;
+}
+.fk_2 {
+  z-index: 4;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  display: block;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 9px;
+  padding: 0.5rem 0.3rem 0.5rem 0.3rem;
+  font-size: 1em;
+  font-weight: bolder;
+  background: #4281a4;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  transition: transform 300ms ease;
+}
+.fk_2:hover:active,
+i:hover {
+  transform: scale(1.06);
+  border-radius: 1rem;
+  background: #274453;
+  color: rgba(255, 255, 255, 1);
+}
+i {
+  position: relative;
+  top: 2px;
+  left: -4px;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.7);
+}
+.fk:hover,
+i:hover {
+  transform: scale(1.06);
+  border-radius: 1rem;
+  background: #274453;
+  color: rgba(255, 255, 255, 1);
 }
 
 .server_volunteers {
   height: 50vh;
   width: 85vw;
-  margin-top: 46%;
-  margin-left: 5%;
+  margin-top: 30%;
+  margin-left: 6.5%;
   position: relative;
   outline: 0.5rem solid #113a52;
   outline-offset: 0.5rem;
@@ -113,7 +155,7 @@
   width: 60%;
   background: transparent;
   position: relative;
-  top: 20%;
+  top: 15%;
   left: 6ch;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -124,7 +166,7 @@
   font-size: 1.8em;
   text-decoration: none;
   background: transparent;
-  color: #013d5e;
+  color: black;
 }
 .smth {
   font-size: 1em;
@@ -132,7 +174,7 @@
   font-weight: lighter;
   color: #4281a4;
   background: transparent;
-  outline: 0.1rem solid black;
+  outline: 0.1rem solid rgba(29, 29, 29, 0.781);
   outline-offset: 0.9rem;
 }
 
@@ -142,7 +184,7 @@
   background: linear-gradient(#113a52 20%, #113a52 20%);
   position: relative;
   left: 3rem;
-  top: -17%;
+  top: -16%;
 }
 .service {
   height: 20rem;
@@ -152,7 +194,7 @@
   color: white;
   font-size: 3em;
   text-align: center;
-  margin: 5rem 0 10rem auto;
+  margin: 4rem 0 10rem auto;
   font-weight: bolder;
   outline: 5px solid #4281a4;
   outline-offset: 1.5rem;
